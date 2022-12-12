@@ -1,2 +1,2 @@
-# codecamp-rwd
-Repo for the freecodecamp.org RWD course
+# freecodecamp.org Responsive Web Design
+Here be thy projects that are build following this course
