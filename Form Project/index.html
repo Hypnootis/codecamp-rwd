@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">This is a title!</h1>
+  <p id="description">
+    This is a description of the form
+  </p>
+  <form id="survey-form">
+    <label id="name-label" for="name">
+      Name
+    <input type="text" id="name" name="name" required placeholder="Mister Bean">
+    </label>
+    <label id="email-label" for="email">Email
+    <input type="email" id="email" name="email" required placeholder="m.bean@bean.com">
+    </label>
+    <label id="number-label" for="number"> Age
+    <input id="number" type="number" max="120" min="8" placeholder="20">
+    </label>
+    <label for="dropdown"> Choose one of these: 
+      <select id="dropdown" name="dropdown">
+        <option value="">Choose an option</option>
+        <option value="1">This</option>
+        <option value="2">That</option>
+      </select>
+    </label>
+    <label for="radio">
+      This: <input type="radio" name="radio-selection" value="this">
+    </label>
+    <label>That: <input type="radio" name="radio-selection" value="that"></label>
+    <label>
+      <input type="checkbox" value="aaa"> aaa
+    </label>
+    <label>
+      <input type="checkbox" value="bbb"> bbb
+    </label>
+      Enter some text:
+    <label>
+      <textarea rows=3 cols=20 ></textarea>
+    </label>
+    <input type="submit" id="submit" value="Submit">
+  </form>
+</body>
+</html>

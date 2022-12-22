@@ -1,0 +1,10 @@
+label, input {
+    display: block;
+}
+
+form, h1, p {
+    margin: 0 auto;
+    width: 60vw;
+    min-width: 300px;
+    max-width: 500px;
+}
